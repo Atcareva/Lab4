@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<head>
+<title>Centennial College Form</title>
+</head>
+<body>
+<header>
+    <a href="https://www.centennialcollege.ca/" target="_blank">
+    <img src="banner.jpg" alt="banner" width="47%">
+    </a>
+</header>
+
+<main>
+    <div></div>
+    <div>
+        <h1>Centennial College</h1>
+        <h2>Continuing Education Course/Instructor Evaluation</h2>
+        <h4>Please read each statement carefully and consider each one individually. Use the computer card to make your choice (use a pencil to fill in the space). Give only one answer for each question. </h4>
+    </div>
+    <div>
+        <form action="mailto:atcareva@my.centennial.ca" method="post">
+            <table style="width: 100%">
+                <tbody>
+                    <tr>
+                        <td class="fieldLabel"><strong>Course Name/Code: </strong></td>
+                        <td>
+                            <input name="code" size="25" tabindex="1" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fieldLabel"><strong>Year:</strong></td>
+                        <td>
+                            <input name="year" size="25" tabindex="1" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fieldLabel"><strong>Instructor:</strong></td>
+                        <td>
+                            <input name="inst" size="25" tabindex="1" type="text">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        <p><strong>Semester:</strong></p>
+        <form action="/action_page.php">
+            <input type="radio" id="fall" name="semester" value="fall">
+            <label for="fall">Fall</label>
+            <input type="radio" id="winter" name="semester" value="winter">
+            <label for="winter">Winter</label>
+            <input type="radio" id="spring" name="semester" value="spring">
+            <label for="spring">Spring/Summer</label>
+        </form>
+        <h3>Instructor</h3>
+
+        <p>How would you rate the ininstructor's:</p>
+        <p>1. <strong>Knowledge</strong> of subject?</p>
+        <form action="/action_page.php">
+            <input type="radio" id="exc" name="rate" value="exc">
+            <label for="exc">Excellent</label>
+            <input type="radio" id="good" name="rate" value="good">
+            <label for="good">Good</label>
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">Fair</label>
+            <input type="radio" id="sat" name="rate" value="sat">
+            <label for="sat">Not Satisfactory</label>
+        </form>
+
+        <p>2. <strong>Helpfulness?</strong></p>
+        <form action="/action_page.php">
+            <input type="radio" id="exc" name="rate" value="exc">
+            <label for="exc">Excellent</label>
+            <input type="radio" id="good" name="rate" value="good">
+            <label for="good">Good</label>
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">Fair</label>
+            <input type="radio" id="sat" name="rate" value="sat">
+            <label for="sat">Not Satisfactory</label>
+        </form>
+
+        <p>3. <strong>Courtesy and respect</strong> for all students?</p>
+        <form action="/action_page.php">
+            <input type="radio" id="exc" name="rate" value="exc">
+            <label for="exc">Excellent</label>
+            <input type="radio" id="good" name="rate" value="good">
+            <label for="good">Good</label>
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">Fair</label>
+            <input type="radio" id="sat" name="rate" value="sat">
+            <label for="sat">Not Satisfactory</label>
+        </form>
+
+        <p>4. <strong>Communication</strong></p>
+        <form action="/action_page.php">
+            <input type="radio" id="exc" name="rate" value="exc">
+            <label for="exc">Excellent</label>
+            <input type="radio" id="good" name="rate" value="good">
+            <label for="good">Good</label>
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">Fair</label>
+            <input type="radio" id="sat" name="rate" value="sat">
+            <label for="sat">Not Satisfactory</label>
+        </form>
+
+        <p>5. Overall <strong>performance</strong></p>
+        <form action="/action_page.php">
+            <input type="radio" id="exc" name="rate" value="exc">
+            <label for="exc">Excellent</label>
+            <input type="radio" id="good" name="rate" value="good">
+            <label for="good">Good</label>
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">Fair</label>
+            <input type="radio" id="sat" name="rate" value="sat">
+            <label for="sat">Not Satisfactory</label>
+        </form>
+
+        <h3>Course</h3>
+        <p>6. How would you rate <strong>the course material</strong></p>
+        <form action="/action_page.php">
+            <input type="radio" id="exc" name="rate" value="exc">
+            <label for="exc">Excellent</label>
+            <input type="radio" id="good" name="rate" value="good">
+            <label for="good">Good</label>
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">Fair</label>
+            <input type="radio" id="sat" name="rate" value="sat">
+            <label for="sat">Not Satisfactory</label>
+        </form>
+
+        <p>7. How much did this course meet your <strong>expectations?</strong></p>
+        <form action="/action_page.php">
+            <input type="radio" id="exc" name="rate" value="exc">
+            <label for="exc">Excellent</label>
+            <input type="radio" id="good" name="rate" value="good">
+            <label for="good">Good</label>
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">Fair</label>
+            <input type="radio" id="sat" name="rate" value="sat">
+            <label for="sat">Not Satisfactory</label>
+        </form>
+
+        <p>8. How would you rate this course <strong>(overall)?</strong></p>
+        <form action="/action_page.php">
+            <input type="radio" id="exc" name="rate" value="exc">
+            <label for="exc">Excellent</label>
+            <input type="radio" id="good" name="rate" value="good">
+            <label for="good">Good</label>
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">Fair</label>
+            <input type="radio" id="sat" name="rate" value="sat">
+            <label for="sat">Not Satisfactory</label>
+        </form>
+
+        <h3>General Information</h3>
+
+        <p>9. Was the <strong>course outline </strong> reviewed/explained at the beginning of your course?</p>
+        <form action="/action_page.php">
+            <input type="radio" id="yes" name="rate2" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="rate2" value="no">
+            <label for="no">No</label>
+            <input type="radio" id="sure" name="rate2" value="sure">
+            <label for="sure">Not sure</label>
+        </form>
+
+        <p>10. Would you <strong>recommend </strong> this course to a friend with the same interest?</p>
+        <form action="/action_page.php">
+            <input type="radio" id="yes" name="rate2" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="rate2" value="no">
+            <label for="no">No</label>
+            <input type="radio" id="sure" name="rate2" value="sure">
+            <label for="sure">Not sure</label>
+        </form>
+
+        <h3>Any Other Comments</h3>
+
+        <h5>11. What is the <strong>best thing </strong>about the course?</h5>
+        <textarea cols="50" name="txtSpecialReq" rows="7" tabindex="37"></textarea><br>
+
+        <h5>12. How could we <strong>improve</strong> this course?</h5>
+        <textarea cols="50" name="txtSpecialReq" rows="7" tabindex="37"></textarea><br>
+
+        <h5>13. Other:</h5>
+        <textarea cols="50" name="txtSpecialReq" rows="7" tabindex="37"></textarea><br>
+        <div class="button">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</main>
+<footer><p id="copyright">©&nbsp;Copyright Anastasiia Tcareva - Week 09 - HTML Forms - COMP213</p> </footer>
+</body>
+</html>
